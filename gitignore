@@ -1,0 +1,6 @@
+# Alles ignorieren
+*
+
+# Diese beiden Dateien explizit erlauben
+!run.py
+!README.md
