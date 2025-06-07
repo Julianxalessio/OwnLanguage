@@ -1,22 +1,29 @@
-# MyLanguage Extension
+# Mini-Interpreter
 
-Diese VS Code Extension ermöglicht es, Programme in meiner eigenen Sprache auszuführen.
+Ein einfacher Interpreter für eine selbst definierte Miniprogrammiersprache.  
+Er unterstützt Variablen, Ausgaben und einfache Bedingungsblöcke (`incase`).
 
-## Funktionen
+## 🔧 Funktionen
 
-- Syntax-Highlighting (falls implementiert)
-- Ausführen von `.mini` Dateien via Tastenkombination oder Command Palette
-- Integration mit `run.py`
+- `set <VariableName> = <VariableValue>\` – legt eine Variable an
+- `write (<VariableName>)\` – gibt eine Variable aus
+- `write (*<String>*)\` – gibt einen Text aus
+- `incase <Bedingung> { ... }` – führt einen Block nur aus, wenn die Bedingung wahr ist
+- `input (<VariableName>, <Question>)\` - fragt den User nach einer Eingabe
+- `func <Funktionsname> { ... }` - erstellt eine Funktion
+- `call <Funktionsname>\` - ruft eine bereits erstellte Funktion auf
 
-## Installation
+## Run Interpretrer
 
-Über den Marketplace oder manuell via `.vsix` Datei.
+- `python interpreter.py`
 
-## Verwendung
+## Files
 
-- Öffne eine `.mini` Datei.
-- Drücke `Ctrl+Alt+R` zum Ausführen.
+- `run.py` - Der Interpreter
+- `NameDerDatei.mini` - Das Codefile
 
----
+Es könne noch mehr von den Code-Files erstellt werden, diese müssen dann aber in run.py hinzugefügt werden.
 
-Viel Spaß beim Programmieren!
+## Develepor
+
+Julian Alessio Lombardo
