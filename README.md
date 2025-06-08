@@ -12,6 +12,7 @@ Er unterstützt Variablen, Ausgaben und einfache Bedingungsblöcke (`incase`).
 - `input (<VariableName>, <Question>)\` - fragt den User nach einer Eingabe
 - `func <Funktionsname> { ... }` - erstellt eine Funktion
 - `call <Funktionsname>\` - ruft eine bereits erstellte Funktion auf
+- `connect src:"<FilePath>"\` - ermöglicht es nachfolgend des Connectcodes den Code aus dem verknüpften File einzufügen
 
 ## Run Interpretrer
 
@@ -20,7 +21,7 @@ Er unterstützt Variablen, Ausgaben und einfache Bedingungsblöcke (`incase`).
 ## Files
 
 - `run.py` - Der Interpreter
-- `NameDerDatei.mini` - Das Codefile
+- `NameDerDatei.jal` - Das Codefile
 
 Es könne noch mehr von den Code-Files erstellt werden, diese müssen dann aber in run.py hinzugefügt werden.
 
